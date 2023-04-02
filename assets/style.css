@@ -1,1 +1,83 @@
 /*Add CSS here */
+:root {
+    --granite-gray: #e5e5e5;
+    --heliotrope: #e866ec;
+    --ocean-blue: #01222f;
+    --navlink: #240032;
+}
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    background-color: var(--granite-gray);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5%;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1rem;
+    color: var(--ocean-blue);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    font-size: 2.7rem;
+}
+
+nav a {
+    color: var(--navlink);
+    text-decoration: wavy;
+  }
+
+/*may or may not be useful, couldn't see changes when messing with it
+  nav a:hover {
+    color: var(--light);
+  }
+  */
+  
