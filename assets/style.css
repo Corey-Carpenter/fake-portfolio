@@ -45,6 +45,9 @@ h1 {
 
 h2 {
     font-size: 4rem;
+    float: left;
+    padding-top: 90px;
+    padding-left: 20px;
 }
 
 h3 {
@@ -63,10 +66,14 @@ h6 {
     font-size: 1rem;
 }
 
+p {
+    line-height: 1.5;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 500px;
+    min-width: 400px;
     font-size: 2.7rem;
 }
 
@@ -75,9 +82,63 @@ nav a {
     text-decoration: wavy;
   }
 
-/*may or may not be useful, couldn't see changes when messing with it
   nav a:hover {
-    color: var(--light);
+    color: white;
   }
-  */
   
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+  }
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about-me {
+    padding: 30px;
+    margin-top: 15px;
+}
+  
+.avatar-picture {
+    width: 15%;
+    height: auto;
+    float: left;
+    padding: 15px;
+}
+
+.work {
+    position: relative;
+    text-align: center;
+    color: var(--heliotrope);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/*keep at very bottom */
+@media screen and (min-width: 768px) {
+    
+}
+
